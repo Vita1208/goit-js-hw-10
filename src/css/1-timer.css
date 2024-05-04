@@ -1,0 +1,49 @@
+@import url('./reset.css');
+.button-start{
+    padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+}
+.button-start:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.timer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.timer .value {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin: 0 2px;
+   
+}
+.text-datetime-picker{
+    width: 250px;
+    height: 50px;
+    
+}
+.button-back {
+    border-radius: 8px;
+    width: 220px;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+

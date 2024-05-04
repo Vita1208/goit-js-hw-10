@@ -1,0 +1,10 @@
+.button-back {
+    border-radius: 8px;
+    width: 220px;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
